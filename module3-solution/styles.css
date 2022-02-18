@@ -52,3 +52,18 @@ p {
     margin-bottom: 5px;
     padding: 18px;
 }
+
+.navbar-toggler {
+    background-image: linear-gradient(to left, rgb(20, 220, 127), rgb(223, 65, 191)) !important;
+    border: 2px solid rgb(198, 50, 228) !important;
+}
+
+.navbar-toggler span {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: rgba(105, 10, 110, 0.911);
+}
