@@ -46,3 +46,9 @@ body {
 p {
     font-weight: 600;
 }
+
+#row {
+    border-radius: 50px;
+    margin-bottom: 5px;
+    padding: 18px;
+}
