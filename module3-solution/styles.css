@@ -75,10 +75,14 @@ p {
 }
 
 .menu_color {
-    background-image: linear-gradient(to left, rgb(20, 220, 127), rgb(223, 65, 191)) !important;
-    border: 2px solid rgb(198, 50, 228) !important;
+    background-image: linear-gradient(to left, rgb(59, 153, 109), rgb(223, 65, 191)) !important;
+    /* border: 2px solid rgb(198, 50, 228) !important; */
 }
 
 .marge {
     margin-top: 5px;
+}
+
+.pil {
+    background-image: linear-gradient(to left, rgb(12, 133, 76), rgb(160, 23, 133)) !important;
 }
