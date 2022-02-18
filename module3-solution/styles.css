@@ -19,10 +19,6 @@ body {
     transition: 0.5s;
 }
 
-.like {
-    background-color: rgba(91, 65, 184, 0.384);
-}
-
 .navbar-nav {
     align-items: center;
 }
@@ -33,8 +29,11 @@ body {
     }
 }
 
-
-/*section*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .nacer1 {
+        visibility: hidden;
+    }
+}
 
 .section {
     position: relative;
@@ -58,6 +57,13 @@ p {
     border: 2px solid rgb(198, 50, 228) !important;
 }
 
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none !important;
+}
+
 .navbar-toggler span {
     display: block;
     margin-top: 5px;
@@ -65,5 +71,14 @@ p {
     width: 22px;
     height: 2px;
     border: 1px;
-    background: rgba(105, 10, 110, 0.911);
+    background: rgba(225, 203, 226, 0.911);
+}
+
+.menu_color {
+    background-image: linear-gradient(to left, rgb(20, 220, 127), rgb(223, 65, 191)) !important;
+    border: 2px solid rgb(198, 50, 228) !important;
+}
+
+.marge {
+    margin-top: 5px;
 }
